@@ -40,4 +40,7 @@ aggregate(df3[, 3], by = list(df3$a, df3$b), FUN = sum, na.rm = TRUE)
 
 # date/time
 class(Sys.time())
-format()
+format(Sys.time(), "%Y-%m-%d.%H-%M-%S")
+
+##
+?write.table
